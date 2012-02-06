@@ -48,7 +48,7 @@ static const char GEM_OTHERAUTHORS[] =
 
 extern "C" {
 #ifdef HAVE_S_STUFF_H
-# include "s_stuff.h"
+# include <s_stuff.h>
 
   /* this is ripped from m_imp.h */
   struct _gemclass
